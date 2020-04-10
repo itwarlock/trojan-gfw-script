@@ -374,21 +374,21 @@ whiptail --clear --ok-button "吾意已決 立即執行" --backtitle "hi 请谨�
 若不確定，請保持默認配置並回車" 25 75 17 \
 "back" "返回上级菜单(Back to main menu)" off \
 "系统" "System" on  \
-"1" "系统升级(System Upgrade)" on \
+"1" "系统升级(System Upgrade)" off \
 "2" "启用BBR | TCP效能优化(TCP-Turbo)" on \
 "3" "安裝BBRPLUS" off \
 "代理" "Proxy" on  \
 "4" "安裝Trojan-GFW" on \
 "5" "安裝Dnscrypt-proxy | DNS加密(dns encryption)" on \
 "6" "安裝Tor-Relay" off \
-"下载" "Download" on  \
-"7" "安裝Qbittorrent | BT客户端(Bittorrent Client)" on \
-"8" "安裝Bittorrent-Tracker" on \
-"9" "安裝Aria2" on \
-"10" "安裝Filebrowser | 网盘(File manager)" on \
-"状态" "Status" on  \
-"11" "安裝Netdata | 服务器状态监控(Server status monitor)" on \
-"其他" "Others" on  \
+"下载" "Download" off  \
+"7" "安裝Qbittorrent | BT客户端(Bittorrent Client)" off \
+"8" "安裝Bittorrent-Tracker" off \
+"9" "安裝Aria2" off \
+"10" "安裝Filebrowser | 网盘(File manager)" off \
+"状态" "Status" off  \
+"11" "安裝Netdata | 服务器状态监控(Server status monitor)" off \
+"其他" "Others" off  \
 "12" "仅启用TLS1.3(Enable TLS1.3 only)" off 2>results
 
 while read choice
